@@ -1,17 +1,15 @@
 #!/usr/bin/env node
-var argv = require('yargs')
-  .option('f', {
-    alias : 'name',
-    demand: true,
-    default: 'tom',
-    describe: 'your name',
-    type: 'string'
-  })
-  .usage('Usage: hello [options]')
-  .example('hello -n tom', 'say hello to Tom')
-  .help('h')
-  .alias('h', 'help')
-  .epilog('copyright 2015')
-  .argv;
 
-console.log('hello ', argv.n);
+// var fs = require('fs');
+// var fse = require('fs-extra');
+// var path = require('path');
+
+// var PATH = process.argv[2] ? './' + process.argv[2] : './client';
+
+console.log(process.argv)
+
+
+// fs.mkdir(PATH, function (err) {
+//     err && console.log(err);
+// });
+// fse.copy(path.join(__dirname, 'templates'), PATH);

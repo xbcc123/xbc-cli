@@ -1,6 +1,6 @@
 {
-    "name": "xbc",
-    "version": "1.0.2",
+    "name": "xbc-cli",
+    "version": "1.0.0",
     "description": "xbc命令行工具",
     "author": "287207951@qq.com",
     "license": "ISC",

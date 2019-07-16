@@ -1,0 +1,30 @@
+{
+  "name": "xbc",
+  "version": "1.0.2",
+  "description": "xbc命令行工具",
+  "author": "287207951@qq.com",
+  "license": "ISC",
+  "keywords": [
+    "cli"
+  ],
+  "bin": {
+    "xbc": "./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/287207951/tool.git"
+  },
+  "dependencies": {
+    "commander": "^2.20.0",
+    "git-clone": "^0.1.0",
+    "global": "^4.4.0",
+    "shelljs": "^0.8.3",
+    "tracer": "^0.9.8",
+    "xbc": "^1.0.2",
+    "yargs": "^13.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

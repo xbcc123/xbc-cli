@@ -15,15 +15,13 @@
         "url": "https://github.com/287207951/tool.git"
     },
     "dependencies": {
-        "commander": "^2.20.0",
-        "fs": "^0.0.1-security",
-        "fs-extra": "^8.1.0",
+        "commander": "^2.19.0",
+        "fs": "0.0.1-security",
         "git-clone": "^0.1.0",
-        "global": "^4.4.0",
+        "inquirer": "^6.2.2",
         "path": "^0.12.7",
         "shelljs": "^0.8.3",
-        "tracer": "^0.9.8",
-        "yargs": "^13.3.0"
+        "tracer": "^0.9.8"
     },
     "devDependencies": {},
     "scripts": {
